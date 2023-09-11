@@ -67,8 +67,12 @@ class Person{
         this.id=id
         this.name=name
     }
+
+    register(){
+        return `${this.name} is now registration`
+    }
 }
 const brad= new Person(1,'steve')
 const ian=new Person(2,'john')
 
-console.log(brad,ian)
+console.log(brad.register(),ian)
