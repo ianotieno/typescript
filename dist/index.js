@@ -25,3 +25,8 @@ const user = {
     name: 'ian'
 };
 console.log(user);
+let cid = 1;
+let customerId = cid;
+function addNum(x, y) {
+    return x + y;
+}

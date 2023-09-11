@@ -31,3 +31,10 @@ const user:User={
     name:'ian'
 }
 console.log(user)
+
+let cid:any =1
+let customerId =<number>cid
+
+function addNum(x:number,y:number):number{
+    return x+y
+}
