@@ -58,3 +58,17 @@ interface MathFunc{
 }
 const add :MathFunc=(x:number,y:number):number=>x+y
 const sub :MathFunc=(x:number,y:number):number=>x-y
+
+class Person{
+    id:number
+    name:string
+
+    constructor(id:number,name:string){
+        this.id=id
+        this.name=name
+    }
+}
+const brad= new Person(1,'steve')
+const ian=new Person(2,'john')
+
+console.log(brad,ian)
