@@ -76,3 +76,21 @@ const brad= new Person(1,'steve')
 const ian=new Person(2,'john')
 
 console.log(brad.register(),ian)
+
+class Employee extends Person{
+    position:string
+    constructor(id:number, name:string,position:string){
+        super(id,name)
+        this.position=position
+    }
+}
+const emp =new Employee(1,'shawn',"developer")
+console.log(emp.register())
+
+function getArray<T>(items:T[]):T[]{
+    return new Array().concat(items)
+}
+let numArray= getArray<number>([1,2,3,])
+let strArray=getArray<string>(['brad','paul','mary'])
+
+numArray.push(5)

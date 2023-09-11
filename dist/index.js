@@ -53,3 +53,17 @@ class Person {
 const brad = new Person(1, 'steve');
 const ian = new Person(2, 'john');
 console.log(brad.register(), ian);
+class Employee extends Person {
+    constructor(id, name, position) {
+        super(id, name);
+        this.position = position;
+    }
+}
+const emp = new Employee(1, 'shawn', "developer");
+console.log(emp.register());
+function getArray(items) {
+    return new Array().concat(items);
+}
+let numArray = getArray([1, 2, 3,]);
+let strArray = getArray(['brad', 'paul', 'mary']);
+numArray.push(5);
