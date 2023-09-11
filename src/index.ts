@@ -38,3 +38,4 @@ let customerId =<number>cid
 function addNum(x:number,y:number):number{
     return x+y
 }
+console.log(addNum(1,2))
