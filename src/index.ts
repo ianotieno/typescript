@@ -53,3 +53,8 @@ const user3: UserI={
     id:1,
     name:'john',
 }
+interface MathFunc{
+    (x:number,y:number):number
+}
+const add :MathFunc=(x:number,y:number):number=>x+y
+const sub :MathFunc=(x:number,y:number):number=>x-y
