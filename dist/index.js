@@ -35,3 +35,7 @@ function log(message) {
     console.log(message);
 }
 log('awesome');
+const user3 = {
+    id: 1,
+    name: 'john',
+};

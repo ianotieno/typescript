@@ -44,3 +44,12 @@ function log(message:string| number):void{
     console.log(message)
 }
 log('awesome')
+
+interface UserI{
+    id:number
+    name:string
+}
+const user3: UserI={
+    id:1,
+    name:'john',
+}
