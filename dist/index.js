@@ -31,3 +31,7 @@ function addNum(x, y) {
     return x + y;
 }
 console.log(addNum(1, 2));
+function log(message) {
+    console.log(message);
+}
+log('awesome');

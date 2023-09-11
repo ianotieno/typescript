@@ -39,3 +39,8 @@ function addNum(x:number,y:number):number{
     return x+y
 }
 console.log(addNum(1,2))
+
+function log(message:string| number):void{
+    console.log(message)
+}
+log('awesome')
